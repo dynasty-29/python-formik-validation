@@ -40,7 +40,6 @@ ptyprocess = "0.7.0"
 pure-eval = "0.2.2"
 pygments = "2.13.0"
 pyparsing = "3.0.9"
-pytest = "7.2.0"
 python-dateutil = "2.8.2"
 setuptools = "65.5.0"
 six = "1.16.0"
@@ -52,8 +51,9 @@ tomli = "2.0.1"
 traitlets = "5.5.0"
 wcwidth = "0.2.5"
 zipp = "3.10.0"
+pytest = "*"
 
 [dev-packages]
 
 [requires]
-python_full_version = "3.8.13"
+python_full_version = "3.12"
